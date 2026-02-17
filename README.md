@@ -38,7 +38,7 @@ pip install gmpy2 numpy opencv-python
 
 ```
 
-*Nota: A instalação do `gmpy2` pode exigir bibliotecas de sistema adicionais (como MPC, MPFR e GMP) dependendo do seu sistema operacional.*
+Nota: A instalação do `gmpy2` pode exigir bibliotecas de sistema adicionais (como MPC, MPFR e GMP) dependendo do seu sistema operacional.
 
 ## Ovservação
 
@@ -46,5 +46,6 @@ Este repositório tem fins estritamente **educacionais**. As implementações aq
 
 * Não faça uso deste código para proteger dados sensíveis.
 * Para segurança real, sugere-se bibliotecas como `cryptography` ou `PyCryptodome`.
+
 
 
