@@ -6,7 +6,7 @@ Este repositório é uma espécie de "laboratório" pessoal para estudos de crip
 
 Eu comecei a me interessar por criptografia por curiosidade em Matemática e História e, sobretudo, ao conhecer o livro *Cracking Codes With Python* de Al Sweigart. Contudo, conforme eu progredia nos tópicos abordados no livro, tive a necessidade, bem como o interesse, de me aprofundar nos assuntos e torná-lo como alicerce para parte dos meus estudos em programação. O repositório apresenta um conjunto de cifras para diferentes estruturas de dados, como strings e imagens, e tem por finalidade ser um "laboratório" de estudos de codificação e manipulação de dados.
 
-## 📂 Conteúdo do Repositório
+## Conteúdo do Repositório
 
 O projeto está dividido em módulos focados em diferentes tipos de cifragem:
 
@@ -46,3 +46,4 @@ Este repositório tem fins estritamente **educacionais**. As implementações aq
 
 * Não faça uso deste código para proteger dados sensíveis.
 * Para segurança real, sugere-se bibliotecas como `cryptography` ou `PyCryptodome`.
+
