@@ -91,7 +91,6 @@ def cipher_images_from_directory(
 def main():
     # Exemplo
     image = r"C:\Users\Administrator\Desktop\exemplo.jpg"
-    image = r"C:\Users\Administrator\Desktop\d252d9a8f0341e0ab35016f5f05f62ea.jpg"
     img = cv2.imread(image)
 
     key = "Mona Lisa"
