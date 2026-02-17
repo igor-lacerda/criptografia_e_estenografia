@@ -14,8 +14,8 @@ O projeto está dividido em módulos focados em diferentes tipos de cifragem:
 
 Implementação "from scratch" do algoritmo RSA, com foco na compreensão da aritmética modular e geração de números primos grandes.
 
-* **Bibliotecas:** Utiliza `gmpy2` para precisão aritmética e performance com números inteiros grandes.
-* **Funcionalidades:**
+* Bibliotecas: Utiliza `gmpy2` para precisão aritmética e performance com números inteiros grandes.
+* Funcionalidades:
 * Geração de chaves (Pública e Privada) com primos de `n` bits.
 * Sistema de blocos: Converte strings (UTF-8) em blocos numéricos para permitir a encriptação de mensagens maiores que a chave.
 * Persistência: Salva e lê chaves e mensagens cifradas em arquivos `.txt`.
@@ -46,4 +46,5 @@ Este repositório tem fins estritamente **educacionais**. As implementações aq
 
 * Não faça uso deste código para proteger dados sensíveis.
 * Para segurança real, sugere-se bibliotecas como `cryptography` ou `PyCryptodome`.
+
 
