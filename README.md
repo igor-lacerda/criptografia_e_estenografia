@@ -4,13 +4,13 @@ Este repositório é uma espécie de "laboratório" pessoal para estudos de crip
 
 ## Motivações
 
-Eu comecei a me interessar por criptografia por curiosidade em Matemática e História e, sobretudo, ao conhecer o livro *Cracking Codes With Python* de Al Sweigart. Contudo, conforme eu progredia nos tópicos abordados no livro, tive a necessidade, bem como o interesse, de me aprofundar nos assuntos e torná-lo como alicerce para parte dos meus estudos em programação. O repositório apresenta um conjunto de cifras para diferentes estruturas de dados, como strings e imagens, e tem por finalidade ser um "laboratório" de estudos de codificação e manipulação de dados.
+Eu comecei a me interessar por criptografia por curiosidade em Matemática e História e, sobretudo, ao conhecer o livro *Cracking Codes With Python* de Al Sweigart. Contudo, conforme eu progredia nos tópicos abordados no livro, tive a necessidade, bem como o interesse, de me aprofundar nos assuntos e torná-lo um alicerce para parte dos meus estudos em programação. O repositório apresenta um conjunto de cifras para diferentes estruturas de dados, como strings e imagens, e tem por finalidade ser um "laboratório" de estudos de codificação e manipulação de dados.
 
 ## Conteúdo do Repositório
 
 O projeto está dividido em módulos focados em diferentes tipos de cifragem:
 
-### RSA (Cifra de Chave Pública/Privada)
+### RSA (Cifra de chave Pública-Privada)
 
 Implementação "from scratch" do algoritmo RSA, com foco na compreensão da aritmética modular e geração de números primos grandes.
 
@@ -21,8 +21,6 @@ Implementação "from scratch" do algoritmo RSA, com foco na compreensão da ari
 * Persistência: Salva e lê chaves e mensagens cifradas em arquivos `.txt`.
 
 ### Cifra de Vigenère para Imagens
-
-Arquivo: `vigenere_cipher_image.py`
 
 Uma adaptação da cifra de Vigenère aplicada à manipulação de pixels em imagens com `numpy` e `OpenCV`.
 
@@ -40,12 +38,13 @@ pip install gmpy2 numpy opencv-python
 
 Nota: A instalação do `gmpy2` pode exigir bibliotecas de sistema adicionais (como MPC, MPFR e GMP) dependendo do seu sistema operacional.
 
-## Ovservação
+## Observação
 
 Este repositório tem fins estritamente **educacionais**. As implementações aqui presentes servem para entender a lógica matemática por trás dos algoritmos.
 
 * Não faça uso deste código para proteger dados sensíveis.
 * Para segurança real, sugere-se bibliotecas como `cryptography` ou `PyCryptodome`.
+
 
 
 
